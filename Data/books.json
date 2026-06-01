@@ -1,45 +1,28 @@
 {
-    "books" :[
-  {
-    "id": 1,
-    "name": "The Pragmatic Programmer",
-    "author": "Andrew Hunt & David Thomas",
-    "genre": "Software Development",
-   "price": 352
-  },
-  {
-    "id": 2,
-    "name": "Clean Code",
-    "author": "Robert C. Martin",
-    "genre": "Software Development",  
-    "price": 464
-  },
-  {
-    "id": 3,
-    "name": "Eloquent JavaScript",
-    "author": "Marijn Haverbeke",
-    "genre": "Programming",
-    "price": 320
-  },
-  {
-    "id": 4,
-    "name": "You Don't Know JS Yet",
-    "author": "Kyle Simpson",
-    "genre": "JavaScript",
-    "price": 299
-  },
-  {
-    "id": 5,
-    "name": "Design Patterns: Elements of Reusable Object-Oriented Software",
-    "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
-    "genre": "Software Architecture",
-    "price": 599
-  },
-  {
-    "id": 6,
-    "name": "The Lean Startup",
-    "author": "Eric Ries",
-    "genre": "Business",
-    "price": 299
+    "books": [
+      {
+        "id": "1",
+        "name": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "genre": "Fantasy",
+        "price": "12.99",
+        "publisher": "Houghton Mifflin"
+      },
+      {
+        "id": "2",
+        "name": "The Land Before Time",
+        "author": "Alan Moore",
+        "genre": "Fantasy",
+        "price": "12.99",
+        "publisher": "Houghton Mifflin"
+      },
+      {
+        "id": "3",
+        "name": "The Land Before Time",
+        "author": "Alan Moore",
+        "genre": "Fantasy",
+        "price": "12.99",
+        "publisher": "Houghton Mifflin"
+      }
+    ]
   }
-]}

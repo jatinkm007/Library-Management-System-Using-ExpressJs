@@ -1,20 +1,34 @@
-const express = require('express')
+const express = require("express");
+// const {users} = require("./data/users.json")
+const dotenv = require("dotenv")
+
+
+// import database connection file
+const DbConnection = require('./databaseConnection')
+
+// importing the routers
+const usersRouter = require("./routes/users");
+const booksRouter = require("./routes/books");   
+
+dotenv.config();
 
 const app = express();
 
-const port = 8081;
+DbConnection();
+
+const PORT = 8081;
 
 app.use(express.json());
 
-app.get("/", (req, res ) =>{
-    res.status(200).json({message:"Home Page"});
-});
-
-app.all('',(req,res) =>{
-    res.status(500).json({message:'Not build yet!!!'})
+app.get("/", (req, res)=> {
+    res.status(200).json({
+        message: "Home Page :-)"
+    })
 })
 
-app.listen(port, () =>{
-    console.log(`Server is running at http://localhost:${port}`);
-    
+app.use("/users", usersRouter);
+app.use("/books", booksRouter);
+
+app.listen(PORT, ()=>{
+    console.log(`Server is up and rruning on http://localhost:${PORT}`)
 })
