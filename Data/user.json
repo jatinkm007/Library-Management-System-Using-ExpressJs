@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "surname": "Johnson",
+    "email": "alice.johnson@example.com",
+    "issuedBook":  "1",
+    "issuedDate": "2025-02-15",
+    "returnDate": "2025-03-15",
+    "SubscriptionType": "member",
+    "SubscriptionDate": "2024-10-01"
+  },
+  {
+    "id": 2,
+    "name": "Rajesh Kumar",
+    "surname": "Kumar",
+    "email": "rajesh.kumar@example.com",
+    "issuedBook":  "2",
+    "issuedDate": "2025-02-15",
+    "returnDate": "2025-03-15",
+    "SubscriptionType": "member",
+    "SubscriptionDate": "2024-10-01"
+  },
+  {
+    "id": 3,
+    "name": "Maya Patel",
+    "surname": "Patel",
+    "email": "maya.patel@example.com",
+    "issuedBook":  "5",
+    "issuedDate": "2025-02-15",
+    "returnDate": "2025-03-15",
+    "SubscriptionType": "member",
+    "SubscriptionDate": "2024-10-01"
+  },
+  {
+    "id": 4,
+    "name": "David Smith",
+    "surname": "Smith",
+    "email": "david.smith@example.com",
+    "issuedBook":  "4",
+    "issuedDate": "2025-02-15",
+    "returnDate": "2025-03-15",
+    "SubscriptionType": "member",
+    "SubscriptionDate": "2024-10-01"
+  },
+  {
+    "id": 5,
+    "name": "Sofia Lee",
+    "surname": "Lee",
+    "email": "sofia.lee@example.com",
+    "issuedBook":  "6",
+    "issuedDate": "2025-02-15",
+    "returnDate": "2025-03-15",
+    "SubscriptionType": "member",
+    "SubscriptionDate": "2024-10-01"
+  }
+]

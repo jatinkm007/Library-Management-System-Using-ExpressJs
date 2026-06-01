@@ -1,0 +1,27 @@
+{
+  "name": "library-management-system-using-expressjs",
+  "version": "1.0.0",
+  "description": "This is a library management API Backend for the management of the users and the books.",
+  "homepage": "https://github.com/jatinkm007/Library-Management-System-Using-ExpressJs#readme",
+  "bugs": {
+    "url": "https://github.com/jatinkm007/Library-Management-System-Using-ExpressJs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jatinkm007/Library-Management-System-Using-ExpressJs.git"
+  },
+  "license": "ISC",
+  "author": "Jatin Kumar Mishra",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
